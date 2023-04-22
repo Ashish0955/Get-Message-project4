@@ -1,14 +1,14 @@
 body{
-    background: linear-gradient(skyblue,white);
+    background: linear-gradient(rgb(9, 30, 39),white);
 }
 
 button{
     width: fit-content;
     padding: 8px;
     cursor: pointer;
-    border: 1px solid lightgrey;
+    /* border: 1px solid lightgrey; */
     border-radius: 5px;
-    background: whitesmoke;
+    background: rgb(110, 94, 129);
 }
 
 button:hover{
@@ -25,8 +25,8 @@ button:hover{
 }
 
 .message{
-    border: 1px solid red;
-    background: lightsalmon;
+    border: 1px solid rgb(54, 26, 121);
+    background: rgb(48, 24, 104);
     border-radius: 5px;
     width: 500px;
     height:auto;
